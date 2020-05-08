@@ -1,0 +1,139 @@
+
+body{
+    background-size: cover;    /arka planı ekrana sığdırdı/
+background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-image: url('m.jpg');
+
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    margin:30px 0px -15px;
+}
+.quiz_wrapper{
+    height: 600px;
+    width: 700px;
+    background-color:#304FFE;
+    margin:50px auto;
+    border-radius: 2px;
+    padding: 50px;
+}
+
+.quiz_wrapper{
+
+
+    position: absolute;
+
+    left: 25px;
+
+
+}
+
+.quiz_wrapper .question{
+    padding: 15px;
+    background-color:#1A237E;
+    border-radius: 8px;
+    color:#ffffff;
+    font-size:20px;
+    float: left;
+    width: 100%;
+
+}
+.quiz_wrapper .options{
+    float: left;
+    width: 100%;
+}
+
+.quiz_wrapper .options ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quiz_wrapper .options ul li{
+    display: inline-block;
+    background-color:#1A237E;
+    width: 47%;
+    padding: 15px;
+    border-radius:8px;
+    margin-top: 25px;
+    font-size: 15px;
+    color:#ffffff;
+    box-shadow: 0px 3px 0px #1A237E;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.quiz_wrapper .options ul li:active{
+    box-shadow: 0px 3px 0px transparent;
+
+}
+.quiz_wrapper .options ul li.DOĞRU{
+    background-color: #0fd40f;
+    box-shadow: 0px 3px 0px #03a503;
+}
+
+.quiz_wrapper .options ul li.YANLIŞ{
+    background-color: #e91e1e;
+    box-shadow: 0px 3px 0px #cb0b0b;
+}
+
+.quiz_wrapper .score{
+    float: left;
+    width: 100%;
+    padding:25px 0px;
+}
+
+.quiz_wrapper .score .next{
+    width: 40%;
+    float: left;
+}
+.quiz_wrapper .score .next button{
+    padding: 15px 80px;
+    color:white;
+    background-color:#1A237E;
+    border:none;
+    border-radius:8px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 3px 0px 	#1A237E;
+    outline: none;
+}
+.quiz_wrapper .score .next button:active{
+    box-shadow: 0px 3px 0px transparent;
+}
+
+.quiz_wrapper .score .score-card{
+    width: 60%;
+    float: left;
+}
+.quiz_wrapper .score .score-card{
+    font-size: 20px;
+    color:black;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.quiz_wrapper .score .score-card span{
+    background-color: 	#1A237E;
+    padding: 5px 20px;
+    border-radius: 8px;
+    color:#ffffff;
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>milyoner</title>
+
+    <link rel="stylesheet" href="milyoner.css">
+
+</head>
+
+<body>
+<h1>KİM MİLYONER OLMAK İSTER ?</h1>
+
+<div class="quiz_wrapper">
+    <div class="score">
+
+        <div class="next">
+            <button type="button" onclick="yarismayaBasla()" style="width: 600px">START</button>
+
+
+        </div>
+    </div>
+    <div class="question" id="questionBox">
+
+    </div>
+
+    <div class="options">
+
+        <ul id="ul">
+            <li id="op1" onclick="button(this)"></li>
+            <li id="op2" onclick="button(this)"></li>
+            <li id="op3" onclick="button(this)"></li>
+            <li id="op4" onclick="button(this)"></li>
+        </ul>
+    </div>
+    <div class="score">
+
+        <div class="next">
+            <button type="button" onclick="next()" id="button" >Next</button><br><br>
+            <button onclick="stop()" class="durdur">STOP</button>
+
+        </div>
+        <div class="score-card">
+            Score : <span id="scoreCard">0</span>
+        </div>
+
+
+
+        <div class="score-card" id="sure">
+            Time: <span id="sadeceSaniyeyiGoster">0</span>
+        </div>
+
+    </div>
+
+
+</div>
+<script src="milyoner.js"></script>
+</body>
+</html>
